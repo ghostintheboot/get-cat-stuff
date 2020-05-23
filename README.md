@@ -5,7 +5,7 @@
 GitHub Page: https://ghostintheboot.github.io/get-cat-stuff/
 
 # Actual Source Code?
-Right here: EDIT THIS
+Right here: https://github.com/ghostintheboot/get-cat-stuff/tree/master
 
 # Overview
 It's a React project largely inspired by this:
