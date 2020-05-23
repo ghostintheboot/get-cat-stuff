@@ -1,0 +1,301 @@
+
+@media (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+
+
+
+@media (min-width: 600px) {
+  body {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./images/sam-moqadam-unsplash.jpg');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url('./images/sam-moqadam-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  .display-fact {
+    top: 205px;
+  }
+
+  .left-btn:hover {
+    transform: scale(1.2) rotate(5deg);
+    -webkit-transform: scale(1.2) rotate(5deg);
+    -moz-transform: scale(1.2) rotate(5deg);
+    -ms-transform: scale(1.2) rotate(5deg);
+    -o-transform: scale(1.2) rotate(5deg);
+    transition: background-color transform 0.5s;
+    -webkit-transition: background-color transform 0.5s;
+    -moz-transition: background-color transform 0.5s;
+    -ms-transition: background-color transform 0.5s;
+    -o-transition: background-color transform 0.5s;
+  }
+
+  .right-btn:hover {
+    transform: scale(1.2) rotate(355deg);
+    -webkit-transform: scale(1.2) rotate(355deg);
+    -moz-transform: scale(1.2) rotate(355deg);
+    -ms-transform: scale(1.2) rotate(355deg);
+    -o-transform: scale(1.2) rotate(355deg);
+    transition: background-color transform 0.5s;
+    -webkit-transition: background-color transform 0.5s;
+    -moz-transition: background-color transform 0.5s;
+    -ms-transition: background-color transform 0.5s;
+    -o-transition: background-color transform 0.5s;
+  }
+}
+
+
+
+
+@media (min-width: 700px) {
+  /* MAIN */
+  .container {
+    margin-top: 0;
+    width: 700px;
+  }
+
+
+  /* HEADER */
+  .header h1 {
+    letter-spacing: 5px;
+  }
+
+  .header h4 {
+    margin-top: -15px;
+  }
+
+  .header h6 {
+    margin-bottom: 15px;
+  }
+
+  .title-caps {
+    font-size: 2.4rem;
+  }
+
+
+  /* ROBOT IMAGE */
+  .robot-image {
+    margin-top: 0;
+    height: 350px;
+    width: 300px;
+  }
+
+
+  /* CAT IMAGE */
+  .cat-image {
+    height: 400px;
+    width: 400px;
+  }
+
+  .display-fact {
+    font-size: 1rem;
+    top: 300px;
+    left: 17px;
+    width: 405px; /* No idea where that extra gap is coming from. */
+  }
+
+  @keyframes moveLeftImage {
+    0% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-39%);
+      -webkit-transform: translateX(-39%);
+      -moz-transform: translateX(-39%);
+      -ms-transform: translateX(-39%);
+      -o-transform: translateX(-39%);
+    }
+  }
+
+  
+@keyframes moveLeftFact {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+  100% {
+    opacity: 1;
+    transform: translateX(-39%);
+    -webkit-transform: translateX(-39%);
+    -moz-transform: translateX(-39%);
+    -ms-transform: translateX(-39%);
+    -o-transform: translateX(-39%);
+}
+}
+
+
+  .col .precursor-image-text {
+    height: 350px;
+    padding: 0;
+  }
+
+  .col .precursor-fact-text {
+    font-size: 1rem;
+    min-height: 25px;
+  }
+
+  .display-consolation {
+    height: 400px;
+  }
+
+
+  /* BOTH IMAGES */
+  .col {
+    height: 400px;
+    width: 350px;
+  }
+
+
+  /* RESULTS SECTION */
+  .guess-results {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* BUTTONS */
+  .decision-buttons {
+    min-height: 70px;
+  }
+}
+
+
+
+
+@media (min-width: 1023px) {
+  /* MAIN */
+  body {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    width: 900px;
+  }
+
+
+  /* HEADER */
+  .header h1 {
+    font-size: 2rem;
+    letter-spacing: 6px;
+  }
+
+  .header h6 {
+    margin-top: -5px;
+  }
+
+  .title-caps {
+    font-size: 3.3rem;
+  }
+
+
+  /* ROBOT IMAGE */
+  .robot-image {
+    height: 450px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    width: 400px;
+  }
+
+
+  /* CAT IMAGE */
+  .cat-image {
+    height: 425px;
+    margin-top: 20px;
+    width: 475px;
+  }
+
+  .display-fact {
+    font-size: 1rem;
+    top: 355px;
+    left: 35px;
+    width: 480px; /* The mystery gap grows as the page gets larger 😕 */
+  }
+
+  @keyframes moveLeftImage {
+    0% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-45%);
+      -webkit-transform: translateX(-45%);
+      -moz-transform: translateX(-45%);
+      -ms-transform: translateX(-45%);
+      -o-transform: translateX(-45%);
+    }
+  }
+
+  
+@keyframes moveLeftFact {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+  100% {
+    opacity: 1;
+    transform: translateX(-45%);
+    -webkit-transform: translateX(-45%);
+    -moz-transform: translateX(-45%);
+    -ms-transform: translateX(-45%);
+    -o-transform: translateX(-45%);
+}
+}
+
+
+  .col .precursor-image-text {
+    height: 420px;
+    padding: 0;
+  }
+
+  .col .precursor-fact-text {
+    font-size: 1.1rem;
+    min-height: 30px;
+  }
+
+  .display-consolation {
+    height: 420px;
+  }
+
+
+  /* BOTH IMAGES */
+  .col {
+    height: 430px;
+    width: 400px;
+  }
+
+
+  /* RESULTS SECTION */
+  .guess-results {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* BUTTONS */
+  .decision-buttons {
+    min-height: 70px;
+  }
+}
