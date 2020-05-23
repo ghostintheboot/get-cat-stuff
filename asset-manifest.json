@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/get-cat-stuff/static/css/main.e2ad0fe1.chunk.css",
+    "main.js": "/get-cat-stuff/static/js/main.dbabfb47.chunk.js",
+    "main.js.map": "/get-cat-stuff/static/js/main.dbabfb47.chunk.js.map",
+    "runtime-main.js": "/get-cat-stuff/static/js/runtime-main.a586fc0c.js",
+    "runtime-main.js.map": "/get-cat-stuff/static/js/runtime-main.a586fc0c.js.map",
+    "static/js/2.2a67ce35.chunk.js": "/get-cat-stuff/static/js/2.2a67ce35.chunk.js",
+    "static/js/2.2a67ce35.chunk.js.map": "/get-cat-stuff/static/js/2.2a67ce35.chunk.js.map",
+    "index.html": "/get-cat-stuff/index.html",
+    "precache-manifest.e6ec60c23c1a60c29073a1186811cc81.js": "/get-cat-stuff/precache-manifest.e6ec60c23c1a60c29073a1186811cc81.js",
+    "service-worker.js": "/get-cat-stuff/service-worker.js",
+    "static/css/main.e2ad0fe1.chunk.css.map": "/get-cat-stuff/static/css/main.e2ad0fe1.chunk.css.map",
+    "static/js/2.2a67ce35.chunk.js.LICENSE.txt": "/get-cat-stuff/static/js/2.2a67ce35.chunk.js.LICENSE.txt",
+    "static/media/Button-SoundBible.com-1420500901.mp3": "/get-cat-stuff/static/media/Button-SoundBible.com-1420500901.0bc53d4f.mp3",
+    "static/media/Computer Error-SoundBible.com-399240903.mp3": "/get-cat-stuff/static/media/Computer Error-SoundBible.com-399240903.bbf5fc51.mp3",
+    "static/media/Robot_blip-Marianne_Gagnon-120342607.mp3": "/get-cat-stuff/static/media/Robot_blip-Marianne_Gagnon-120342607.b006268b.mp3",
+    "static/media/both-down.png": "/get-cat-stuff/static/media/both-down.2e741ff8.png",
+    "static/media/left-side.png": "/get-cat-stuff/static/media/left-side.72644fdc.png",
+    "static/media/right-side.png": "/get-cat-stuff/static/media/right-side.091c7e36.png",
+    "static/media/mediaqueries.css": "/get-cat-stuff/static/media/sam-moqadam-unsplash.c3c92518.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a586fc0c.js",
+    "static/js/2.2a67ce35.chunk.js",
+    "static/css/main.e2ad0fe1.chunk.css",
+    "static/js/main.dbabfb47.chunk.js"
+  ]
+}
